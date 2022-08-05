@@ -19,31 +19,31 @@ do
 		case $script in 
 		"Blank Lines Counter")
 		echo "Script Elegido: $script"
-		./Scripts/blankLinesCounter.sh $1
+		bash blankLinesCounter.sh file.txt
 		break
 		;;
 
 		"Find Names")
 		echo "Script Elegido: $script"
-		./Scripts/findNames.sh $1
+		bash findNames.sh file.txt
 		break
 		;;
 
 		"Stats Sentences")
 		echo "Script Elegido: $script"
-		./Scripts/statsSentences.sh $1
+		bash statsSentences.sh file.txt
 		break
 		;;
 
 		"Stats Usage Words")
 		echo "Script Elegido: $script"
-		./Scripts/statsUsageWords.sh $1
+		bash statsUsageWords.sh file.txt
 		break
 		;;
 
 		"Stats Words")
 		echo "Script Elegido: $script"
-		./Scripts/statsWords.sh $1
+		bash statsWords.sh file.txt
 		break
 		;;
 
@@ -62,6 +62,3 @@ do
 		esac
 	done
 done
-
-
-

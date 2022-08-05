@@ -5,7 +5,7 @@ Alumno: Nicola Petetta
 
 # Levantar la imagen
 
-En el archivo raise estan los 2 comandos a usar para "arrancar" la imagen, en caso de querer usar un texto que no sea el de prueba cambiar el contenido del archivo de texto para evitar problemas con el encoding
+En el archivo raise estan los 2 comandos a usar para "arrancar" la imagen, en caso de querer usar un texto que no sea el de prueba cambiar el contenido del archivo de texto para evitar problemas con el encoding. Antes de esto clonar el repositorio y pararse en la carpeta
 
 
 
